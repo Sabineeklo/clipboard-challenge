@@ -3,97 +3,163 @@
 <head>
 	<title>Clipboard</title>
 	<meta charset="utf-8">
+
+	<!-- CSS Stylesheet link -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Bootstrap css link -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- Google fonts link -->
+	<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome script -->
+	<script src="https://kit.fontawesome.com/d01ceb1b08.js" crossorigin="anonymous"></script>
+
 </head>
-<body> 
+<body>
+	<div class="container-fluid">
 										<!-- First page start-->
-	<header>
-		<img src="images/logo.svg">
-		<h1>A history of everything you copy</h1>
+	<div class="row">
+	<header class="col-lg-12 first-page">
+		<img class="logo" src="images/logo.svg">
+		<h1 class="big-header">A history of everything you copy</h1>
 		<p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-		<a class="btn-ios" href="#">Download for IOS</a>
-		<a class="btn-mac" href="#">Download for MAC</a>
+		<div class="row bouton">
+		<a class="button-ios btn-info rounded-pill col" href="#">Download for IOS</a>
+		<a class="button-mac btn-primary rounded-pill col" href="#">Download for MAC</a>
+		</div>
 	</header>
+	</div>
 										<!-- First page end-->
 
 
 										<!--Section 'keep track' page start-->
-	<section>
-		<h1>Keep track of your snippets</h1>
-		<p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
-		<img src="images/image-computer.png">
-		<h3>Quick Search</h3>
-		<p>Easily search your snippets by content, category, web address, application, and more.</p>
-		<h3>iCloud Sync</h3>
-		<p>Instantly saves and syncs snippets across all your devices.</p>
-		<h3>Complete History</h3>
-		<p>Retrieve any snippets from the first moment you started using the app.</p>
+
+	<div class="row">
+	<section class=" col-lg-12 keep-track">
+		<h3 class="section-heading">Keep track of your snippets</h1>
+		<p class="heading-text">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+		<div class="row">
+		<img class="computer-img col-lg-6" src="images/image-computer.png">
+		<div class="features col-lg-6">
+			<div>
+			<h3 class="heading">Quick Search</h3>
+			<p>Easily search your snippets by content, category, web address, application, and more.</p>
+			</div>
+			<div>
+			<h3 class="heading">iCloud Sync</h3>
+			<p>Instantly saves and syncs snippets across all your devices.</p>
+			</div>
+			<div>
+			<h3 class="heading">Complete History</h3>
+			<p>Retrieve any snippets from the first moment you started using the app.</p>
+			</div>
+		</div>
+		</div>
 	</section>
-										<!--Section 'keep track' page end-->
+	</div>									<!--Section 'keep track' page end-->
 
 
-										<!--Section 'access clipboard' page start-->		
-	<section>
-		<h3>Access Clipboard anywhere</h3>
+										<!--Section 'access clipboard' page start-->
+
+	<div class="row">	
+	<section class="access col-lg-12">
+		<h3 class="section-heading">Access Clipboard anywhere</h3>
 		<p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
-		<img src="images/image-devices.png">
+		<img class="col-lg-8" src="images/image-devices.png">
 	</section>
+	</div>	
+									<!--Section 'access clipboard' page end-->
 
-										<!--Section 'access clipboard' page end-->
 
+							<!--Section 'supercharge your flow' page start-->
 
-										<!--Section 'supercharge your flow' page start-->
-	<section>
-		<h3>Supercharge your workflow</h3>
-		<p>We’ve got the tools to boost your productivity.</p>
-		<img src="images/icon-blacklist.svg">
-		<h5>Create blacklists</h5>
-		<p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-		<img src="images/icon-text.svg">
-		<h5> Plain text snippets </h5>
-		<p>Remove unwanted formatting from copied text for a consistent look.</p>
-		<img src="images/icon-preview.svg">
-		<h5>Sneak preview</h5>
-		<p>Quick preview of all snippets on your Clipboard for easy access.</p>
+	<div class="row">					
+	<section class="supercharge-section col-lg-12">
+		<h3 class="section-heading">Supercharge your workflow</h3>
+		<p class="supercharge-text">We’ve got the tools to boost your productivity.</p>
+		<div class="row workflow-features">
+			<div class="col-lg-4">
+				<img src="images/icon-blacklist.svg">
+				<h5 class="heading">Create blacklists</h5>
+				<p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+			</div>
+			<div class="col-lg-4">
+				<img src="images/icon-text.svg">
+				<h5 class="heading"> Plain text snippets </h5>
+				<p>Remove unwanted formatting from copied text for a consistent look.</p>
+			</div>
+			<div class="col-lg-4">
+				<img src="images/icon-preview.svg">
+				<h5 class="heading">Sneak preview</h5>
+				<p>Quick preview of all snippets on your Clipboard for easy access.</p>
+			</div>
+		</div>
 
-		<!-- les logos --> 
-		<ul>
+		<!-- les logos -->
+		<div class="row logo-section">
+		<ul class="logo-list col-lg-12">
 			<li><img src="images/logo-google.png"></li>
 			<li><img src="images/logo-ibm.png"></li>
 			<li><img src="images/logo-microsoft.png"></li>
 			<li><img src="images/logo-hp.png"></li>
 			<li><img src="images/logo-vector-graphics.png"></li>
 		</ul>
+		</div>
 	</section>
-										<!--Section 'supercharge your flow' page end-->
+	</div>	
+							<!--Section 'supercharge your flow' page end-->
 
 
-										<!--Section 'clipboarf for' page start-->
-	<section>
-		<h3> Clipboard for iOS and Mac OS</h3>
+								<!--Section 'call to action' page start-->
+
+
+	<div class="row">
+	<section class="cta col-lg-12">
+		<h3 class="section-heading"> Clipboard for iOS and Mac OS</h3>
 		<p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
-		<a class="btn-ios" href="#">Download for IOS</a>
-		<a class="btn-mac" href="#">Download for MAC</a>
+		<div class="row">
+		<a class="button-ios btn-info rounded-pill col-lg-4" href="#">Download for IOS</a>
+		<a class="button-mac btn-primary rounded-pill col-lg-4" href="#">Download for MAC</a>
+		</div>
 	</section>
+	</div>
+
 										<!--Section 'clipboarf for' page end-->
 
 
 										<!--Footer page start-->
 	<footer>
-		<img src="images/logo.svg">
-		<ul class="details">
-			<li><a href="#">FAQs</a></li>
-			<li><a href="#">Contact Us</a></li>
-			<li><a href="#">Privacy Policy</a></li>
-			<li><a href="#">Press Kit</a></li>
-			<li><a href="#">Install Guide</a></li>
-		</ul>
-		<ul>
-			<li><a href="#"><img src="images/icon-facebook.svg"></a></li>
-			<li><a href="#"><img src="images/icon-twitter.svg"></a></li>
-			<li><a href="#"><img src="images/icon-instagram.svg"></a></li>
-		</ul>
+		<div class="row">
+			<div class="col-lg-3 footer-img">
+				<img class="footer-logo" src="images/logo.svg">
+			</div>
+			<div class="col-lg-6">
+				<ul class="details">
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Press Kit</a></li>
+					<li><a href="#">Install Guide</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3">
+				<ul class="social-media">
+					<li><a href="#"><i class="fab fa-2x fa-facebook-f"></i></a></li>
+					<li><a href="#"><i class="fab fa-2x fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-2x fa-instagram"></i></a></a></li>
+				</ul>
+			</div>
+		</div>
 	</footer>
-										<!--Footer page end-->
+
+								<!--Footer page end-->
+
+
+<!-- Bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>	</div>									
 </body>
 </html>
