@@ -1,0 +1,203 @@
+
+
+  	                             	 /*---------------BASE Part-----------*/
+
+
+footer{
+	background-color: #eeeeee;
+}
+
+p{
+	color: #D3D3D3;
+	font-size: 18px;
+	font-weight: 600;
+}
+ul{
+	list-style: none;
+}
+
+.container-fluid{
+	background-color: white;
+  	color: #52575D;
+  	font-family: 'Bai Jamjuree', sans-serif;
+
+
+  	
+}
+
+.first-page{
+	background-image:url("../images/bg-header-desktop.png");
+	background-repeat: no-repeat;
+
+}
+
+.big-header{
+	font-size: 3rem;
+	font-weight: 600;
+	
+}
+.section-heading{
+	font-weight: 600;
+	font-size: 2.4rem;
+}
+.heading{
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+.details a ,.social-media a{
+	color: grey;
+}
+
+
+
+
+                                	 /*---------------LAYOUT Part-----------*/
+
+section{
+	padding: 6%;
+}
+.container-fluid{
+	text-align: center;
+}
+.first-page{
+	padding: 10% 25% 1%;
+}
+.first-page p{
+	padding-bottom: 40px;
+}
+.button-ios, .button-mac {
+	font-size: 20px;
+	margin: 5px;
+	padding: 15px 30px;
+
+}
+.section-heading{
+	padding-top: 90px;
+}
+.logo{
+	padding-bottom: 60px;
+}
+.computer-img{
+	float: left;
+	padding: 40px;
+	position: absolute;
+	right: 60px;
+}
+.features{
+	text-align: left;
+	padding: 40px;
+
+}
+.features div{
+	padding: 0 45% 0 20px;
+
+}
+.heading{
+	padding-top: 30px;
+}
+.heading-text{
+	padding: 0 25%;
+}
+.access p{
+	padding: 0 27% 7%;
+}
+.logo-list li{
+	float: left;
+	padding: 40px;
+}
+.logo-section{
+	padding: 30px 80px;
+}
+.logo-list li{
+	padding: 30px 50px;
+}
+.supercharge-text{
+	padding: 20px;
+}
+.workflow-features{
+	padding:30px 80px;
+}
+.workflow-features div{
+	padding: 50px;
+}
+
+.cta p{
+	padding: 10px 20% 40px;
+}
+.cta{
+	 padding-bottom: 12%;
+}
+.bouton{
+	padding: 10px 28%;
+}
+
+.footer-logo{
+	float: left;
+	width: 60px;
+	position: absolute;
+	right: 30%;
+}
+.details{
+	padding: 40px;
+}
+.details li{
+	float: left;
+	padding: 15px 60px;
+}
+.social-media li{
+	float: left;
+	padding: 20px;
+}
+
+.footer-img{
+	padding: 50px;
+}
+.social-media{
+	padding: 35px;
+}
+
+@media (max-width:1028px){
+	.features{
+		text-align: center;
+	}
+	.features div ,.heading-text ,.access p ,.cta p{
+		padding: 30px;
+
+	}
+	.workflow-features div{
+		width: 100%;
+		padding: 10px;
+	}
+
+	.computer-img{
+		right: auto;
+		float: none;
+		
+	}
+	.logo-section li ,.details li{
+		float: none;
+	}
+	.social-media{
+		padding: 1% 25%;
+	}
+	.footer-logo{
+		width: 70px;
+		right: 42%;
+
+	}
+}
+
+
+	                              	 
+                                	 /*---------------STATE Part-----------*/
+
+
+
+
+
+.container-fluid a:hover{
+	text-decoration: none;
+}
+footer a:hover{
+	color: #5dccbb;
+}
